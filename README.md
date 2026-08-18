@@ -5,6 +5,9 @@ This is public-facing code for computing steady-state distributions of particles
 You will need an additional repository as a dependency:
 https://github.com/lenafabr/networktools
 
-To get started with an example tree structure, open and run examples/example_HSEnetwork_mitodistrib.m
+To get started with an example tree structure, open and run:
+
+examples/example_simplenetwork_mitodistrib.m for a simple symmetric binary tree
+examples/example_HSEnetwork_mitodistrib.m for a dendritic tree from a Drosophila sensory neuron
 
 Search for the word SET to find places where you should set parameters.

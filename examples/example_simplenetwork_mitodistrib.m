@@ -24,15 +24,15 @@ addpath(networktoolsDir)
 
 nLevels = 2; 
 branchlen = 12;
-theta_list = [pi/4*1.1,pi/6];      % branching angle relative to parent
+theta_list = [pi/4,pi/6];      % branching angle relative to parent
 scale = 1; % decrease branch lengths at each level
 NT=setupBinaryTree(nLevels,branchlen,theta_list,scale);
 
 % this is the proximal trunk of your network
 trunkedge = NT.nodeedges(NT.rootnode,1);
 
-%% Compute radii, as for a balanced tree
-% set trunk radius
+% Compute radii, as for a balanced tree
+% SET trunk radius
 rtrunk = 1;
 
 % Da Vinci Law: r1^2 + r2^2 = r0^2
