@@ -11,9 +11,9 @@ clear
 
 % ---------- SET THESE TO MATCH YOUR DIRECTORY LOCATIONS --------------
 % define the directory where the dendriticMitoMixing package is located
-dendriticMitoMixingDir = '~/proj/dendriticMitoMixing/dendriticMitoMixingModels_public/';
+dendriticMitoMixingDir = '~/UCSD/proj/dendriticMitoMixing/dendriticMitoMixingModels_public/';
 % define the directory where the networktools package is located
-networktoolsDir = '~/proj/networktools/';
+networktoolsDir = '~/UCSD/proj/networktools/';
 
 %% Make matlab aware of  subdirectories and dependencies
 cd(dendriticMitoMixingDir)
@@ -127,6 +127,6 @@ disp(sprintf('average cluster size, volume fraction, distal enrichment: %g %g %g
 voldens = distinfo.M1vals*param.mitovol./(pi*radii.^2);
 
 figure
-NT.plotNetworkField(radii,voldens)
+NT.plotNetworkField(radii,voldens);
 title('Predicted volume density of mitos')
 colorbar

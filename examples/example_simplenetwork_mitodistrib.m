@@ -11,9 +11,9 @@ clear
 
 % ---------- SET THESE TO MATCH YOUR DIRECTORY LOCATIONS --------------
 % define the directory where the dendriticMitoMixing package is located
-dendriticMitoMixingDir = '~/proj/dendriticMitoMixing/dendriticMitoMixingModels_public/';
+dendriticMitoMixingDir = '~/UCSD/proj/dendriticMitoMixing/dendriticMitoMixingModels_public/';
 % define the directory where the networktools package is located
-networktoolsDir = '~/proj/networktools/';
+networktoolsDir = '~/UCSD/proj/networktools/';
 
 %% Make matlab aware of  subdirectories and dependencies
 cd(dendriticMitoMixingDir)
