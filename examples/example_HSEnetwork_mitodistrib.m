@@ -37,7 +37,7 @@ trunkedge = NT.nodeedges(NT.rootnode,1);
 % SET whether you want to recalculate radii or use pre-saved ones
 % true if you want to use balanced radii (Da Vinci Law, L/D sister area ratios)
 % false if you want to use measured radii, with radii.^2 saved in the .net file
-set_balanced_radii = false;
+set_balanced_radii = true;
 % SET the trunk radius in um
 rtrunk = sqrt(NT.edgevals(trunkedge,2));
 
