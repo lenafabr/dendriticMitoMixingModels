@@ -32,5 +32,5 @@ NT.rootnode = 80;
 directedTreeEdges(NT,NT.rootnode);
 
 %% run the GUI
-app = mitoDensitiesGUI('NT',NT)
+app = mitoDensitiesGUI_exported('NT',NT)
 
